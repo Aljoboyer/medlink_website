@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.sideBG{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0px;
+  width: 320px;
+  height: 50%;
+  background-color: black;
+}

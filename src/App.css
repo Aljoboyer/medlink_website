@@ -1,0 +1,184 @@
+:root {
+  --clr-gray-1: #333333;
+  --clr-gray-2: #4f4f4f;
+  --clr-gray-3: #828282;
+  --clr-gray-4: #bdbdbd;
+  --clr-gray-6: #f2f2f2;
+  --clr-secondayGray-2: #6F7482;
+  --clr-white: #ffffff; 
+  --clr-white-icon: #C7D3E3;
+  --clr-white-bg: #F3F7FB;
+  --clr-blue-primary: #5A98F2; 
+  --clr-blue-secondary: #3285fa;
+  --clr-blue-footer: #395987;
+  --clr-blue-light: #E4EEF5;
+  --clr-orange-1: #C18329;
+  --clr-orange-2: #F2B45A;
+  --clr-green-2: #27AE60; 
+  --clr-green-3: #6FCF97; 
+
+  /* --clr-placeholder-1: #6F7482; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: none !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+
+/* mui button contained  */
+.MuiButton-contained {
+  background-color: var(--clr-blue-primary) !important;
+  color: var(--clr-white) !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  font-weight: 600 !important;
+}
+
+.MuiButton-contained:hover {
+  background-color: var(--clr-blue-secondary) !important; 
+  box-shadow: none !important;
+}
+
+.MuiButton-containedSecondary{
+  background-color: var(--clr-white) !important;
+  color: var(--clr-blue-primary) !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  font-weight: 600 !important;
+}
+
+.MuiButton-containedSecondary:hover {
+  background-color: var(--clr-blue-light) !important;
+  color: var(--clr-blue-secondary) !important; 
+  box-shadow: none !important;
+}
+
+/* mui button outlined primary*/
+.MuiButton-outlinedPrimary {
+  border-color: var(--clr-blue-primary) !important;
+  color: var(--clr-blue-primary) !important;
+  font-weight: 600 !important;
+}
+
+.MuiButton-outlinedPrimary:hover {
+  border-color: var(--clr-blue-secondary) !important;
+  color: var(--clr-blue-secondary) !important; 
+}
+
+/* mui button outlined Secondary */
+.MuiButton-outlinedSecondary{
+  border-color: var(--clr-orange-2) !important;
+  color: var(--clr-orange-2) !important;
+  background: transparent;
+  font-weight: 600 !important;
+}
+
+.MuiButton-outlinedSecondary:hover{
+  /* border-color: var(--clr-orange-1) !important; */
+  color: var(--clr-orange-1) !important;
+} 
+
+/* mui button text */
+.MuiButton-text {
+  color: var(--clr-blue-primary) !important; 
+}
+
+.MuiButton-text:hover {
+  color: var(--clr-blue-secondary) !important;
+  background: none !important;
+}
+
+/* MUI Input */
+.MuiInput-root{
+  background-color: var(--clr-white) !important;
+  border: 1px solid var(--clr-blue-light) !important;
+  padding: 6px 10px !important; 
+  color: var(--clr-blue-footer) !important;
+}
+
+.MuiInputLabel-root{
+  color: var(--clr-secondayGray-2) !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+/* Hanlde PlaceHolder */
+::placeholder {
+  color: var(--clr-secondayGray-2) !important; 
+  font-size: 1rem !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+.propicDeleteIcon{
+  display: none;
+  cursor: pointer;
+}
+.proPics:hover + .propicDeleteIcon{
+  display:block;
+  transition: 0.5s ease-in-out;
+}
+.propicDeleteIcon:hover {
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+.proPics:hover {
+  opacity: 0.8;
+}
+.propicDeleteIcon:hover +  .proPics{
+  opacity: 0.8;
+}
+
+.doctorProfilePicIcon{
+  display: none;
+  cursor: pointer;
+}
+
+.docPP:hover + .doctorProfilePicIcon{
+  display:block;
+  transition: 0.5s ease-in-out;
+}
+
+.doctorProfilePicIcon:hover +  .docPP{
+  opacity: 0.8;
+}
+
+.doctorProfilePicIcon:hover {
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+
+.docPP:hover {
+  opacity: 0.8;
+}
+
+.nono{
+  cursor: pointer;
+}

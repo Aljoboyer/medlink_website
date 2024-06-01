@@ -1,0 +1,10 @@
+.doctor-signup input::-webkit-outer-spin-button,
+.doctor-signup input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.doctor-signup input[type="number"] {
+  -moz-appearance: textfield;
+}
